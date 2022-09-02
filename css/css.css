@@ -1,0 +1,15 @@
+#logo{
+    width: 150px;
+    height: auto;
+}
+.imgIdioma{
+    width: 50px !important;
+    height: auto;
+}
+#divIdiomas{
+    margin-left: 200px;
+}
+#imgFotoCara{
+    width: 20%;
+    border-radius: 50%;
+}
