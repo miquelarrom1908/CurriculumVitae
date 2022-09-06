@@ -61,3 +61,8 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+//Toolpid (alt image)
+$(document).ready(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+});

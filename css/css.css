@@ -11,5 +11,55 @@
 }
 #imgFotoCara{
     width: 20%;
+    border-radius: 5%;
+}
+#donosoImg{
+    width: 13000px;
+    height: auto;
+}
+#garfImg{
+    width: 300px;
+    height: auto;
+}
+.idiomasFormacion{
+    width: 100px !important;
+    height: auto;
+}
+.lenguajesImg{
+    width: 100px;
+    height: auto;
+    margin-left: 5%;
+}
+.soImg{
+    width: 100px;
+    height: auto;
+    margin-left: 20%;
+}
+#linux{
+    width: 80px !important;
+}
+.herramientaImg{
+    width: 100px;
+    height: auto;
+    margin-left: 3%;
+}
+p{
+    font-size: larger;
+    justify-content: center;
+}
+/* Social Media Icons*/
+#iconsMedia a{
     border-radius: 50%;
+}
+#iconsMedia i{
+    font-size: 20pt;
+}
+
+#iconsMedia li{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#iconsMedia a:hover{
+    background-color: #FF7133 !important;
 }

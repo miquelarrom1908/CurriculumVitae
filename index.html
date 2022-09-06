@@ -1,281 +1,321 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>CV Miquel Arrom Batle</title>
-        <!-- CSS & JS PROPI -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="css/css.css"/>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap Icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <!-- SimpleLightbox plugin CSS-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet"/>
+<html lang="es">
 
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top"><img id="logo" class="img-fluid" src="assets/img/logotip.jpg"></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">Sobre mi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#formation">Formación</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#project">Experiencia</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#aptitude">Aptitudes</a></li>
-                    </ul>
-                </div>
-                <div id="divIdiomas" class="float-right">
-                    <a class="navbar-brand" onclick="canviIdiomCat()"><img class="imgIdioma" src="assets/img/cat.jpg"></img></a>
-                    <a class="navbar-brand" onclick="canviIdiomEsp()"><img class="imgIdioma" src="assets/img/esp.jpg"></img></a>
-                    <a class="navbar-brand" onclick="canviIdiomIng()"><img class="imgIdioma" src="assets/img/ing.png"></img></a>
-                </div>
-            </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Miquel Arrom Batle</h1>
-                        <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5">Curriculum Vitae</p>
-                        <a class="btn btn-primary btn-xl" href="#about">Sobre mi</a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- About-->
-        <section class="page-section bg-primary" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <img id="imgFotoCara" class="img-fluid" src="assets/img/foto.jpg"></img>
-                        <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4">Soy Miquel Arrom, técnico superior de programación web. Actualmente me dedico a crear páginas para clientes que buscan soluciones intuitivas. Sin embargo, mi idea es continuar con mi formación profesional a través del trabajo en grupo, y sobre todo, con gente que ya tenga experiencia en este campo. En esta página web podrás ver los trabajos que he llevado a cabo, mis conocimientos y aptitudes y datos de contacto.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>CV Miquel Arrom Batle</title>
+    <!-- CSS & JS PROPI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/css.css" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <!-- Bootstrap Icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- SimpleLightbox plugin CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <!-- Socil Media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- Formation / Education -->
-        <section class="page-section" id="formation">
-            <div class="container px-4 px-lg-5">
+</head>
+
+<body id="index">
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#index"><img id="logo" class="img-fluid" src="img/img/logotip.jpg"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre mi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formation">Formación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#project">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aptitude">Aptitudes</a></li>
+                </ul>
+            </div>
+            <div id="divIdiomas" class="float-right">
+                <a class="navbar-brand" onclick="canviIdiomCat()"><img class="imgIdioma"
+                        src="img/img/cat.jpg" data-toggle="tooltip" data-placement="top" title="Catalán"></img></a>
+                <a class="navbar-brand" onclick="canviIdiomEsp()"><img class="imgIdioma"
+                        src="img/img/esp.jpg" data-toggle="tooltip" data-placement="top" title="Español"></img></a>
+                <a class="navbar-brand" onclick="canviIdiomIng()"><img class="imgIdioma"
+                        src="img/img/ing.png" data-toggle="tooltip" data-placement="top" title="Inglés"></img></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 h-100">
+            <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-8 align-self-end">
+                    <h1 class="text-white font-weight-bold">Miquel Arrom Batle</h1>
+                    <hr class="divider" />
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 mb-5">Curriculum Vitae</p>
+                    <a class="btn btn-primary btn-xl" href="#about">Sobre mi</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="page-section bg-primary" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <img id="imgFotoCara" class="img-fluid" src="img/img/foto.jpg"></img>
+                    <hr class="divider divider-light" />
+                    <p class="text-white-75 mb-4">Soy Miquel Arrom, técnico superior de programación web. Actualmente me
+                        dedico a crear páginas para clientes que buscan soluciones intuitivas. Sin embargo, mi idea es
+                        continuar con mi formación profesional a través del trabajo en grupo, y sobre todo, con gente
+                        que ya tenga experiencia en este campo. En esta página web podrás ver los trabajos que he
+                        llevado a cabo, mis conocimientos y aptitudes y datos de contacto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formation / Education -->
+    <section class="page-section" id="formation">
+        <div class="container px-4 px-lg-5">
+            <a href="https://paucasesnovescifp.cat/" target="_blank" class="text-black">
                 <h2 class="text-center mt-0">CIFP PAUCASESNOVES</h2>
-                <hr class="divider" />
-                <div class="row">
-                    <div class="col text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">GRADO SUPERIOR EN DESARROLLO DE APLICACIONES WEB</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                        </div>
-                    </div>
-                    <div class="col text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi bi-phone fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">GRADO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                        </div>
+            </a>
+            <hr class="divider" />
+            <div class="row">
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">GRADO SUPERIOR EN DESARROLLO DE APLICACIONES WEB</h3>
+                        <p class="text-muted mb-0">09/2017 - 06/2020</p>
                     </div>
                 </div>
-            </div>
-        </section>
-
-
-   <!--     <section class="page-section" id="formation">
-            <div class="container px-4 px-lg-5">
-                <h2 class="text-center mt-0">At Your Service</h2>
-                <hr class="divider" />
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Project-->
-        <div id="project">
-            <div class="container-fluid p-0">
-                <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/3.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/4.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
-                            <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
-                            <div class="portfolio-box-caption p-3">
-                                <div class="project-category text-white-50">Category</div>
-                                <div class="project-name">Project Name</div>
-                            </div>
-                        </a>
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi bi-phone fs-1 text-primary"></i></div>
+                        <h3 class="h4 mb-2">GRADO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA</h3>
+                        <p class="text-muted mb-0">09/2020 - 06/2022</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Call to action-->
-        <section class="page-section bg-dark text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download Now!</a>
-            </div>
-        </section>
-        <!-- Aptitude-->
-        <section class="page-section" id="aptitude">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
-                        <h2 class="mt-0">Let's Get In Touch!</h2>
-                        <hr class="divider" />
-                        <p class="text-muted mb-5">Ready to start your next project with us? Send us a messages and we will get back to you as soon as possible!</p>
+        <hr class="divider " style="background-color: white;" />
+        <hr class="divider " style="background-color: white;" />
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">IDIOMAS</h2>
+            <hr class="divider" />
+            <div class="row">
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <h3 class="h4 mb-2">Nivel Nativo</h3>
+                        <img class="idiomasFormacion" src="img/img/cat.jpg" data-toggle="tooltip" data-placement="top" title="Catalán"></img>
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
-                    <div class="col-lg-6">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                           
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                           
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Submit</button></div>
-                        </form>
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <h3 class="h4 mb-2">Nivel Nativo</h3>
+                        <img class="idiomasFormacion" src="img/img/esp.jpg" data-toggle="tooltip" data-placement="top" title="Español"></img>
                     </div>
                 </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-4 text-center mb-5 mb-lg-0">
-                        <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <h3 class="h4 mb-2">Nivel Medio</h3>
+                        <img class="idiomasFormacion" src="img/img/ing.png" data-toggle="tooltip" data-placement="top" title="Inglés"></img>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="bg-light py-5">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2022 - Miquel Arrom Batle ( M A B )</div></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+        </div>
+    </section>
+
+    <!-- Project-->
+    <section class="page-section text-white bg-primary" id="project">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">EXPERIENCIA LABORAL</h2>
+            <hr class="divider " />
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-white-75 mb-4">Desarrollo de dos aplicacions web en solitario para dos empresas
+                        pequeñas</p>
+                </div>
+            </div>
+            <hr class="divider " style="background-color: white;" />
+            <div class="row">
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-building fs-1 text-white"></i></div>
+                        <a class="text-white" href="https://www.garfholistics.es/" target="_blank"><img id="garfImg"
+                                class="img-fluid" src="img/img/garf.png" data-toggle="tooltip" data-placement="top"
+                                title="Garf Holistics"></img></a>
+                        <hr class="divider " />
+                        <p class="text-white">Empresa pequeña de Fisioterapia Holística</p>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="mt-5">
+                        <div class="mb-2"><i class="bi-building fs-1 text-white"></i></div>
+                        <a class="text-white" href="https://juliandonoso.es/" target="_blank"><img id="donosoImg"
+                                class="img-fluid" src="img/img/donoso.png" data-toggle="tooltip" data-placement="top"
+                                title="Julian Donoso"></img></a>
+                        <hr class="divider " />
+                        <p class="text-white">Empresa pequeña de Contrucción</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aptitude-->
+    <section class="page-section" id="aptitude">
+        <div class="container px-4 px-lg-5">
+            <h2 class="text-center mt-0">APTITUDES ADQUIRIDAS</h2>
+            <hr class="divider" />
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h5>Lenguajes de programación</h5>
+                        </div>
+                        <div class="card-body">
+                            <img class="lenguajesImg" src="img/img/portfolio/js.png" data-toggle="tooltip"
+                                data-placement="top" title="JavaScript"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/java.png" data-toggle="tooltip"
+                                data-placement="top" title="Java"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/csharp.png" data-toggle="tooltip"
+                                data-placement="top" title="C Sharp"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/php.png" data-toggle="tooltip"
+                                data-placement="top" title="PHP"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h5>Bases de Datos</h5>
+                        </div>
+                        <div class="card-body">
+                            <img class="lenguajesImg" src="img/img/portfolio/mysql.png" data-toggle="tooltip"
+                                data-placement="top" title="MySQL"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/postgresql.png" data-toggle="tooltip"
+                                data-placement="top" title="PostgreSQL"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/phpmyadmin.png" data-toggle="tooltip"
+                                data-placement="top" title="phpMyAdmin"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/mongodb.png" data-toggle="tooltip"
+                                data-placement="top" title="MongoDB"></img>
+                        </div>
+                    </div>
+                </div>
+                <hr class="divider-light" />
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h5>Frameworks y Librerías</h5>
+                        </div>
+                        <div class="card-body">
+                            <img class="lenguajesImg" src="img/img/portfolio/jquery.png" data-toggle="tooltip"
+                                data-placement="top" title="JQuery"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/slim.png" data-toggle="tooltip"
+                                data-placement="top" title="Slim"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/bootstrap.png" data-toggle="tooltip"
+                                data-placement="top" title="Bootstrap"></img>
+                            <img class="lenguajesImg" src="img/img/portfolio/materialize.png" data-toggle="tooltip"
+                                data-placement="top" title="Materialize"></img>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h5>Sistemas Operativos</h5>
+                        </div>
+                        <div class="card-body">
+                            <img class="soImg" src="img/img/portfolio/windows.jpg" data-toggle="tooltip"
+                                data-placement="top" title="Windows"></img>
+                            <img id="linux" class="soImg" src="img/img/portfolio/linux.png" data-toggle="tooltip"
+                                data-placement="top" title="Linux"></img>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="divider-light" />
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-12">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h5>Herramientas</h5>
+                        </div>
+                        <div class="card-body">
+                            <img class="herramientaImg" src="img/img/portfolio/html5.png" data-toggle="tooltip"
+                                data-placement="top" title="HMTL"></img>
+                            <img class="herramientaImg" src="img/img/portfolio/css.png" data-toggle="tooltip"
+                                data-placement="top" title="CSS"></img>
+                            <img class="herramientaImg" src="img/img/portfolio/vscode.png" data-toggle="tooltip"
+                                data-placement="top" title="Visual Studio Code"></img>
+                            <img class="herramientaImg" src="img/img/portfolio/netbeans.png" data-toggle="tooltip"
+                                data-placement="top" title="NetBeans"></img>
+                            <img class="herramientaImg" src="img/img/portfolio/git.png" data-toggle="tooltip"
+                                data-placement="top" title="Git"></img>
+                            <img class="herramientaImg" src="img/img/portfolio/virtualBox.png" data-toggle="tooltip"
+                                data-placement="top" title="VirtualBox"></img>
+                            <img class="herramientaImg" src="img/img/portfolio/libreoffice.png" data-toggle="tooltip"
+                                data-placement="top" title="LibreOffice"></img>
+                            <img class="herramientaImg" src="img/img/portfolio/officeM.png" data-toggle="tooltip"
+                                data-placement="top" title="Microsoft Office"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="bg-light py-5">
+        <div class="container">
+            <ul id="iconsMedia" class="list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/miquel-arrom-batle-92a707167" role="button"
+                        role="button" data-toggle="tooltip" data-placement="top" title="Linkedin" target="_blank">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="https://github.com/miquelarrom1908"
+                        role="button" data-toggle="tooltip" data-placement="top" title="GitHub" target="_blank">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="mailto:marrombatle@gmail.com"
+                        role="button" data-toggle="tooltip" data-placement="top" title="Gmail" target="_blank">
+                        <i class="bi bi-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <hr class="divider-light" />
+        <div class="container px-4 px-lg-5">
+            <div class="small text-center text-muted">Copyright &copy; 2022 - Miquel Arrom Batle ( M A B )</div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- JS -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+
 </html>
