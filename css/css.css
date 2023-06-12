@@ -43,9 +43,45 @@
     height: auto;
     margin-left: 3%;
 }
+#imgMachine{
+    width: 300px;
+    height: auto;
+}
 p{
     font-size: larger;
     justify-content: center;
+}
+.containerMachine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerMachine img {
+    max-width: 20%; 
+    max-height: 100%; 
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+#txtBig{
+    margin-top: 20px !important;
+}
+#iconDatabase{
+    color: #FF7133;
+}
+#dataWeb{
+    margin-top: 15%;
+}
+#dataBig{
+    margin-top: 15%;
+}
+#dataMulti{
+    margin-top: 7%;
+}
+/* Aptitudes */
+.card-body{
+    height: 150px !important;
 }
 /* Social Media Icons*/
 #iconsMedia a{
@@ -63,3 +99,4 @@ p{
 #iconsMedia a:hover{
     background-color: #FF7133 !important;
 }
+
