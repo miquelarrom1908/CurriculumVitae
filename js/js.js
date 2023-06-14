@@ -1,74 +1,4 @@
-/*!
-* Start Bootstrap - Creative v7.0.6 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
-window.addEventListener('DOMContentLoaded', event => {
-    
-    AnyActualitzat();
-    // Navbar shrink function
-    var navbarShrink = function () {
-        const navbarCollapsible = document.body.querySelector('#mainNav');
-        if (!navbarCollapsible) {
-            return;
-        }
-        if (window.scrollY === 0) {
-            navbarCollapsible.classList.remove('navbar-shrink')
-        } else {
-            navbarCollapsible.classList.add('navbar-shrink')
-        }
-
-    };
-
-    // Shrink the navbar 
-    navbarShrink();
-
-    // Shrink the navbar when page is scrolled
-    document.addEventListener('scroll', navbarShrink);
-
-    // Activate Bootstrap scrollspy on the main nav element
-    const mainNav = document.body.querySelector('#mainNav');
-    if (mainNav) {
-        new bootstrap.ScrollSpy(document.body, {
-            target: '#mainNav',
-            offset: 74,
-        });
-    };
-
-    // Collapse responsive navbar when toggler is visible
-    const navbarToggler = document.body.querySelector('.navbar-toggler');
-    const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
-    );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
-            if (window.getComputedStyle(navbarToggler).display !== 'none') {
-                navbarToggler.click();
-            }
-        });
-    });
-
-    // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
-    });
-
-    $(function(){
-        $('.selectpicker').selectpicker();
-    });
-
-});
-
-//Toolpid (alt image)
-$(document).ready(function () {
-    $('[data-toggle="tooltip"]').tooltip();
-});
-
-//Functions cambio idiomas
+//Functiones cambio idiomas
 //Variables generales
 const linkMenu1 = document.getElementById("linkMenu1");
 const linkMenu2 = document.getElementById("linkMenu2");
@@ -101,7 +31,7 @@ function canviIdiomCat(){
     linkMenu4.innerText = "Aptituds";
     linkMenu5.innerText = "Presentació";
     linkMenu6.innerHTML = "Interesos";
-    txtSobreMi.innerHTML = "Soc Miquel Arrom, tècnic superior de programació web. Actualment, em dedico a crear pàgines per a clients que cerquen solucions intuïtives. La meva idea, però, és continuar amb la meva formació professional a través del treball en grup, i sobretot, amb gent que ja tingui experiència en aquest camp. En aquesta pàgina web podreu veure els treballs que he dut a terme, els meus coneixements i aptituds i dades de contacte.";
+    txtSobreMi.innerHTML = "Soc Miquel Arrom, tècnic superior de programació web, multiplataforma i especialitzat en big data i intel·ligència artificial.. Actualment, em dedico a crear pàgines per a clients que cerquen solucions intuïtives. La meva idea, però, és continuar amb la meva formació professional a través del treball en grup, i sobretot, amb gent que ja tingui experiència en aquest camp. En aquesta pàgina web podreu veure els treballs que he dut a terme, els meus coneixements i aptituds i dades de contacte.";
     txtWeb.innerHTML = "CICLE FORMATIU DE GRAU SUPERIOR EN DESENVOLUPAMENT D'APLICACIONS WEB";
     txtMulti.innerHTML = "CICLE FORMATIU DE GRAU SUPERIOR EN DESENVOLUPAMENT D'APLICACIONS MULTIPLATAFORMA";
     txtBig.innerHTML = "CURS D'ESPECIALITZACIÓ EN INTEL·LIGÈNCIA ARTIFICIAL I BIG DATA"
@@ -129,7 +59,7 @@ function canviIdiomEsp(){
     linkMenu4.innerText = "Aptitudes";
     linkMenu5.innerText = "Sobre mi";
     linkMenu6.innerHTML = "Intereses";
-    txtSobreMi.innerHTML = "Soy Miquel Arrom, técnico superior de programación web. Actualmente me dedico a crear páginas para clientes que buscan soluciones intuitivas. Sin embargo, mi idea es continuar con mi formación profesional a través del trabajo en grupo, y sobre todo, con gente que ya tenga experiencia en este campo. En esta página web podrás ver los trabajos que he llevado a cabo, mis conocimientos y aptitudes y datos de contacto.";
+    txtSobreMi.innerHTML = "Soy Miquel Arrom, técnico superior de programación web, multiplataforma y especializado en big data e inteligencia artifical.. Actualmente me dedico a crear páginas para clientes que buscan soluciones intuitivas. Sin embargo, mi idea es continuar con mi formación profesional a través del trabajo en grupo, y sobre todo, con gente que ya tenga experiencia en este campo. En esta página web podrás ver los trabajos que he llevado a cabo, mis conocimientos y aptitudes y datos de contacto.";
     txtWeb.innerHTML = "CICLO FORMATIVO DE GRADO SUPERIOR EN DESARROLLO DE APLICACIONES WEB";
     txtMulti.innerHTML = "CICLO FORMATIVO DE GRADO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA";
     txtBig.innerHTML = "CURSO DE ESPECIALIZACIÓN EN INTELIGENCIA ARTIFICIAL Y BIG DATA"
@@ -157,7 +87,7 @@ function canviIdiomIng(){
     linkMenu4.innerText = "Skills";
     linkMenu5.innerText = "About me";
     linkMenu6.innerHTML = "Interests";
-    txtSobreMi.innerHTML = "I'm Miquel Arrom, web programming technician. Currently I am dedicated to create web pages for clients who are looking for intuitive solutions. However, my idea is to continue with my professional training through group work, and above all, with people who already have experience in this field. In this website you will be able to see the work I have done, my knowledge and skills and contact details.";
+    txtSobreMi.innerHTML = "I'm Miquel Arrom, web programming technician, multi-platform and specialized in big data and artificial intelligence. Currently I am dedicated to create web pages for clients who are looking for intuitive solutions. However, my idea is to continue with my professional training through group work, and above all, with people who already have experience in this field. In this website you will be able to see the work I have done, my knowledge and skills and contact details.";
     txtWeb.innerHTML = "HIGHER LEVEL TRAINING CYCLE IN WEB APPLICATION DEVELOPMENT";
     txtMulti.innerHTML = "HIGHER LEVEL TRAINING CYCLE IN MULTIPLATFORM APPLICATION DEVELOPMENT";
     txtBig.innerHTML = "SPECIALIZATION COURSE IN ARTIFICIAL INTELLIGENCE AND BIG DATA"
@@ -177,7 +107,7 @@ function canviIdiomIng(){
     txtApt4.innerHTML = "Operating Systems";
     txtApt5.innerHTML = "Tools";
 }
-
+/* Cambio boton borde inferior */
 function setActiveButton(buttonId) {
     var buttons = document.querySelectorAll('button');
     buttons.forEach(function(button) {
@@ -204,19 +134,29 @@ function buttonClickIng(ing) {
     setActiveButton(ing);
 }
 
+function changeLang(){
+    var userLang = navigator.language || navigator.userLanguage;
+    console.log(userLang)
+    if (userLang === "es" || userLang === "es-ES") {
+        document.documentElement.lang = "es";
+        canviIdiomEsp()
+        document.getElementById("esp").classList.add('active-button');
+    } else if (userLang === "ca" || userLang === "ca-ES") {
+        document.documentElement.lang = "ca";
+        canviIdiomCat()
+        document.getElementById("cat").classList.add('active-button');
+    } else {
+        document.documentElement.lang = "en";
+        canviIdiomIng()
+        document.getElementById("ing").classList.add('active-button');
+}
+}
+
 function AnyActualitzat(){
     const d = new Date();
     document.getElementById("dataAny").innerHTML = d.getFullYear();
 };
 
-$(window).scroll(function() {
-
-    var position =$(this).scrollTop();
-   
-    // Si el usuario baja el scroll muestro el div qeu contiene el enlace botón
-    if (position > 300) {
-       $(".boton-subir").fadeIn('slow');
-     } else {
-     $(".boton-subir").fadeOut('slow');
-    }
-});
+window.onload = function() {
+    changeLang()
+}
