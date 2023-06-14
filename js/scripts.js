@@ -178,7 +178,45 @@ function canviIdiomIng(){
     txtApt5.innerHTML = "Tools";
 }
 
+function setActiveButton(buttonId) {
+    var buttons = document.querySelectorAll('button');
+    buttons.forEach(function(button) {
+        if (button.id === buttonId) {
+            button.classList.add('active-button');
+        } else {
+            button.classList.remove('active-button');
+        }
+    });
+}
+
+function buttonClickCat(cat) {
+    canviIdiomCat();
+    setActiveButton(cat);
+}
+
+function buttonClickEsp(esp) {
+    canviIdiomEsp();
+    setActiveButton(esp);
+}
+
+function buttonClickIng(ing) {
+    canviIdiomIng();
+    setActiveButton(ing);
+}
+
 function AnyActualitzat(){
     const d = new Date();
     document.getElementById("dataAny").innerHTML = d.getFullYear();
 };
+
+$(window).scroll(function() {
+
+    var position =$(this).scrollTop();
+   
+    // Si el usuario baja el scroll muestro el div qeu contiene el enlace botón
+    if (position > 300) {
+       $(".boton-subir").fadeIn('slow');
+     } else {
+     $(".boton-subir").fadeOut('slow');
+    }
+});
