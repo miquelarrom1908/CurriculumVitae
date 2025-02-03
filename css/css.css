@@ -1,108 +1,132 @@
-#logo{
+#logo {
     width: 150px;
     height: auto;
 }
-.imgIdioma{
+
+.imgIdioma {
     width: 50px !important;
     height: auto;
 }
-#divIdiomas{
+
+#divIdiomas {
     margin-left: 200px;
 }
-#imgFotoCara{
+
+#imgFotoCara {
     width: 20%;
     border-radius: 5%;
 }
-#donosoImg{
+
+#donosoImg {
     width: 13000px;
     height: auto;
 }
-#garfImg{
+
+#garfImg {
     width: 300px;
     height: auto;
 }
-.idiomasFormacion{
+
+.idiomasFormacion {
     width: 100px !important;
     height: auto;
 }
-.lenguajesImg{
+
+.lenguajesImg {
     width: 100px;
     height: auto;
     margin-left: 5%;
 }
-.soImg{
+
+.soImg {
     width: 100px;
     height: auto;
     margin-left: 20%;
 }
-#linux{
+
+#linux {
     width: 80px !important;
 }
-.herramientaImg{
+
+.herramientaImg {
     width: 100px;
     height: auto;
     margin-left: 3%;
 }
-#imgMachine{
+
+#imgMachine {
     width: 300px;
     height: auto;
 }
-p{
+
+p {
     font-size: larger;
     justify-content: center;
 }
+
 .containerMachine {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .containerMachine img {
-    max-width: 20%; 
-    max-height: 100%; 
+    max-width: 20%;
+    max-height: 100%;
     border-radius: 50%;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10%;
 }
-#txtBig{
+
+#txtBig {
     margin-top: 20px !important;
 }
-#iconDatabase{
+
+#iconDatabase {
     color: #FF7133;
 }
-#dataWeb{
+
+#dataWeb {
     margin-top: 15%;
 }
-#dataBig{
+
+#dataBig {
     margin-top: 15%;
 }
-#dataMulti{
+
+#dataMulti {
     margin-top: 7%;
 }
+
 /* Aptitudes */
-.card-body{
+.card-body {
     height: 150px !important;
 }
+
 /* Social Media Icons*/
-#iconsMedia a{
+#iconsMedia a {
     border-radius: 50%;
 }
-#iconsMedia i{
+
+#iconsMedia i {
     font-size: 20pt;
 }
 
-#iconsMedia li{
+#iconsMedia li {
     margin-left: 3%;
     margin-right: 3%;
 }
 
-#iconsMedia a:hover{
+#iconsMedia a:hover {
     background-color: #FF7133 !important;
 }
+
 /*Buttons language*/
 .active-button {
     border-bottom: 5px solid #FF7133 !important;
 }
+
 /*Button hacia arriba*/
 .boton-subir {
     position: fixed;
@@ -110,9 +134,12 @@ p{
     bottom: 10px;
     padding: 20px;
     display: none;
-  }
-  
-  .boton-subir a {
+    z-index: 9999 !important;
+}
+
+.boton-subir a {
     font-size: 54px;
     color: black;
-  }
+}
+
+/* ICONOS 3D */
